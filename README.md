@@ -1,2 +1,2 @@
-# Bar-Chart
+# Bar-Chart (dynamic & responsive)
 Bar Chart (html, css, js)
