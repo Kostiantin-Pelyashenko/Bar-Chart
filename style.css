@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+.flex-container-chart {
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: rgb(211, 223, 222);
+  align-items: flex-end;
+  width: 50%;
+  height: 400px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-left: 5px solid rgb(0, 0, 0);
+}
+
+.flex-container-chart > div,
+.flex-container-х > div {
+  font-size: 1vw;
+  text-align: center;
+}
+.flex-container-х {
+  margin: auto;
+  padding-left: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: rgb(235, 225, 175);
+  align-items: center;
+  width: 50%;
+  height: 20px;
+}
